@@ -1,0 +1,46 @@
+# .yml的配置的配置方式：key: value
+
+# 普通的key-value
+name: zjj
+
+# 对象
+student1:
+  name: zjj
+  age: 3
+
+# 对象行内写法
+student2: {name: zjj,age: 3}
+
+# 数组
+pets1:
+  - cat
+  - dog
+  - pig
+
+# 数组行内写法
+pets2: [cat,dog,pig]
+
+# yml里面的对象可以注入到springIOC容器中
+person:
+  # 用random.uuid生成全球唯一的一串数字字符串
+  name: ${random.uuid}
+  age: 3
+  happy: false
+  birth: 2020/11/13
+  maps: {k1: v1,k2: v2}
+  hello: 哈哈
+  list:
+    - code
+    - sport
+    - music
+  dog:
+    # ${person.hello:hello}的意思是：
+    # 如果person对象没有一个叫hello的属性，
+    # 那么name属性=呵呵。
+    # 如果person对象有一个叫hello的属性，
+    # 那么name属性=hello属性的值。
+    name: ${person.hello:呵呵}
+    age: 4
+
+# 当前配置文件的称呼
+profile: hehe

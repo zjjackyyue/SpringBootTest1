@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: top.zjjacky.springboottest1.Springboottest1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.22 s - in top.zjjacky.springboottest1.Springboottest1ApplicationTests
