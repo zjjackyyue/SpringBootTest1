@@ -2,7 +2,7 @@
 
 ## 介绍
 
-这是一个非常简陋的SpringBoot项目，里面只有一些配置文件、一些pojo类、一个controller类。目的是熟悉创建SpringBoot的流程、SpringBoot配置文件的玩法，因此不存在具体的业务代码。
+这是一个非常简单的SpringBoot项目，里面有一些配置文件、一些pojo类、一个controller类。目的是熟悉创建SpringBoot的流程、SpringBoot配置文件的玩法。
 
 ## 具体文件的介绍
 
